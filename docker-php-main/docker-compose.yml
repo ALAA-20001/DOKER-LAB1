@@ -1,0 +1,6 @@
+version: '3'
+services:
+  my-php-app:
+    image: AlAA-20001/my-php-app:latest
+    ports:
+      - "8880:80"
